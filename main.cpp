@@ -60,6 +60,16 @@ class Resourses
     void change_food();
 };
 
-int main()
-{
+int main(){
+    Resourses money_time,people_time,army_time,food_time;
+    srand(time(NULL));
+    people_time.people = 1000000+(rand() % 1500000);
+    cout<<people_time.people<<endl;
+    money_time.money = 150000000+(rand() % 200000000);
+    cout<<money_time.money<<endl;
+    army_time.army = 2000+(rand() % 50000);
+    cout<<army_time.army<<endl;
+    food_time.food = 300+(rand() % 4000);
+    cout<<food_time.food<<endl;
+    return 0;
 }
