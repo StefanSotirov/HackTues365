@@ -6,13 +6,16 @@
 #include "Header.h"
 using namespace std;
 
-vector<string> childrenvector;
-void Children::create_children(Ruler child)
-    {
-        if (child.new_child == true)
-        {
-            child_name = "Stefko";
-            child_age = 0;
-            childrenvector.push_back(child_name);
-        }
-    }
+void Children::add_child()
+{
+    child_name = "Stefko";
+    child_age = 0;
+    childrenvector.push_back(child_name);
+}
+Ruler Children::take_throne()
+{
+    Ruler obj1;
+    obj1.age = child_age;
+    obj1.name = child_name;
+    return obj1;
+}
