@@ -32,18 +32,18 @@
 	<time.h>
 	"Header.h"
 
-1552800331 d:\hacktues\hacktues\hacktues365\project\header.h
+1552804903 d:\hacktues\hacktues\hacktues365\project\header.h
 	<iostream>
 	<iosfwd>
 	<vector>
 
-1552800789 source:d:\hacktues\hacktues\hacktues365\project\main.cpp
+1552802055 source:d:\hacktues\hacktues\hacktues365\project\main.cpp
 	<iostream>
 	<stdlib.h>
 	<time.h>
 	"Header.h"
 
-1552768812 source:d:\hacktues\hacktues\hacktues365\project\class_ruler.cpp
+1552805873 source:d:\hacktues\hacktues\hacktues365\project\class_ruler.cpp
 	<ctime>
 	<iostream>
 	<windows.h>
