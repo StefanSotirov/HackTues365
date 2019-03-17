@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Children.cpp" />
+		<Unit filename="Class_Relationships.cpp" />
 		<Unit filename="Class_Ruler.cpp" />
 		<Unit filename="Header.h" />
 		<Unit filename="main.cpp" />

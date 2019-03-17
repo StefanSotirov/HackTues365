@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1552717828 source:d:\hacktues\attempt 2\main.cpp
+	<iostream>
+
+1552725179 source:d:\hacktues\attempt 2\children.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<vector>
+	<stdio.h>
+	"Header.h"
+
+1552725684 source:d:\hacktues\attempt 2\class_ruler.cpp
+	<ctime>
+	<iostream>
+	<windows.h>
+	<vector>
+	<stdlib.h>
+	<stdio.h>
+	"Header.h"
+
+1552724744 d:\hacktues\attempt 2\header.h
+	<iostream>
+	<iosfwd>
+
+1552754030 source:d:\hacktues\hacktues\hacktues365\project\children.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	<vector>
+	<stdio.h>
+	<time.h>
+	"Header.h"
+
+1552800331 d:\hacktues\hacktues\hacktues365\project\header.h
+	<iostream>
+	<iosfwd>
+	<vector>
+
+1552800789 source:d:\hacktues\hacktues\hacktues365\project\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"Header.h"
+
+1552768812 source:d:\hacktues\hacktues\hacktues365\project\class_ruler.cpp
+	<ctime>
+	<iostream>
+	<windows.h>
+	<vector>
+	<stdlib.h>
+	<stdio.h>
+	"Header.h"
+
+1552800600 source:d:\hacktues\hacktues\hacktues365\project\class_relationships.cpp
+	<ctime>
+	<iostream>
+	<windows.h>
+	<vector>
+	<stdlib.h>
+	<stdio.h>
+	"Header.h"
+

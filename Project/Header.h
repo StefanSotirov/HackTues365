@@ -5,10 +5,32 @@
 using namespace std;
 class Ruler;
 
+class Relationships
+{
+public:
+    int population;
+    int money;
+    static vector <Relationships> resourcesvector;
+    int relationship_people = 0;
+    int relationship_country = 0;
+    bool is_it_trading = false;
+    bool revolution = false;
+    bool war = false;
+    string people;
+    string countries;
+    void relationship_with_other_countries();
+    void trading();
+    void rebellion();
+    void relationship_with_my_people();
+    void infection();
+    void reputation();
+    void resources();
+};
+
 class Children
 {
 public:
-    vector<string> childrenvector;
+    vector <Children> childrenvector;
     int child_age;
     string child_name;
     string father_name;
@@ -21,6 +43,7 @@ class Ruler
 public:
     static vector <Ruler> rulers;
     Children children;
+    Relationships relationships;
     int age;
     bool ifDead;
     int count_children;
@@ -32,3 +55,4 @@ public:
     void game_loop();
     void ruler_actions();
 };
+
